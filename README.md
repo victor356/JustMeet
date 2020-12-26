@@ -1,24 +1,17 @@
 📋 JustMeet è il progetto realizzato per l'esame di Ingegneria del Software dell'Università di Camerino.
 
-Componenti gruppo:
-
--Cippitelli Tommaso (100802) tommaso.cippitelli@studenti.unicam.it
-
--Rinaldi Vittorio (100763) vittorio.rinaldi@studenti.unicam.it
+Tecnologie utilizzate:
 
 
-Sviluppato in:
-
-
--Bootstrap (jsp)   
--Spring Boot (java)
+-Bootstrap (FrontEnd)   
+-Spring Boot (Java)
 
 Descrizione
 
 
 Il progetto si basa sullo sviluppo di un'applicazione Web che che permetta l’incontro tra persone al fine di svolgere attività cooperative e di squadra. 
 
-L’obiettivo del sistema è dunque favorire la creazione di gruppi, amicizie, ed in generale relazioni sociali, tanto ricercate soprattutto dagli studenti appena arrivati in una nuova città o Università.
+L’obiettivo del sistema è favorire la creazione di relazioni sociali, tanto ricercate soprattutto dagli studenti/lavoratori appena arrivati in una nuova città o Università.
 
 Gli utenti possono utilizzare la piattaforma per inserire eventi e per richiedere la partecipazione di altri utenti. 
 L'utente autenticato avrà la possibilità di cercare eventi in base alla categoria ed al periodo di manifestazione desiderato, una volta incuriositi potranno decidere di aderire con un click, se dovesse ripensarci, ha la possibilità di farlo nella sessione apposita.
