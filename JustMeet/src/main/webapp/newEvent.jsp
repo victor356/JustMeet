@@ -1,14 +1,13 @@
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
-<c:set var="contextPath" value="${pageContext.request.contextPath}" />
 
 
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="UTF-8">
-	<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+	<meta http-equiv="Content-type" content="text/html">
 <title>Nuovo Evento</title>
 </head>
 <body>

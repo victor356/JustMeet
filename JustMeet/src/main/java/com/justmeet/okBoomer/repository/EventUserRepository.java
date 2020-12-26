@@ -2,14 +2,12 @@ package com.justmeet.okBoomer.repository;
 
 import java.util.List;
 
-import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.data.jpa.repository.Modifying;
-import org.springframework.data.jpa.repository.Query;
-import org.springframework.transaction.annotation.Transactional;
-
 import com.justmeet.okBoomer.model.Event;
 import com.justmeet.okBoomer.model.EventUser;
 import com.justmeet.okBoomer.model.User;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
 
 public interface EventUserRepository extends JpaRepository<EventUser, Long> {
 

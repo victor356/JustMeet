@@ -9,7 +9,6 @@ import org.springframework.validation.Errors;
 import org.springframework.validation.Validator;
 
 import com.justmeet.okBoomer.model.EventUser;
-import com.justmeet.okBoomer.repository.EventUserRepository;
 import com.justmeet.okBoomer.service.EventUserService;
 /**
  * @author Tommaso Cippitelli
@@ -24,13 +23,11 @@ public class EventUserValidator implements Validator{
 	
 	@Override
 	public boolean supports(Class<?> clazz) {
-		// TODO Auto-generated method stub
 		return false;
 	}
 
 	@Override
 	public void validate(Object target, Errors errors) {
-		// TODO Auto-generated method stub
 		EventUser  eUser = (EventUser) target;
 		
 		   if (!(eUService.notDuplicate(eUser.getEvent(), eUser.getUser()).isEmpty())) {

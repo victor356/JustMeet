@@ -22,13 +22,11 @@ public class EventValidator implements Validator{
 	
 	@Override
 	public boolean supports(Class<?> clazz) {
-		// TODO Auto-generated method stub
 		return Event.class.equals(clazz);
 	}
 
 	@Override
 	public void validate(Object target, Errors errors) {
-		// TODO Auto-generated method stub
 		Event event =(Event) target;
 		
         ValidationUtils.rejectIfEmptyOrWhitespace(errors, "titolo", "NotEmpty");

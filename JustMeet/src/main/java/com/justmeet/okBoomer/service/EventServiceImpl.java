@@ -32,13 +32,11 @@ public class EventServiceImpl implements EventService {
 
 	@Override
 	public void save(Event event) {
-		// TODO Auto-generated method stub
 		repository.save(event);
 	}
 
 	@Override
 	public List<Event> findByTitolo(String titolo) {
-		// TODO Auto-generated method stub
 		return repository.findByTitolo(titolo);
 	}
 
@@ -52,13 +50,11 @@ public class EventServiceImpl implements EventService {
 
 	@Override
 	public Optional<Event> showDetails(Long id) {
-		// TODO Auto-generated method stub
 		return repository.findById(id);
 	}
 
 	@Override
 	public List<Event> findByUserUsername(Principal user) {
-		// TODO Auto-generated method stub
 		List<Event> u = repository.findByOwner(user.getName());
 		return u;
 	}
@@ -71,13 +67,11 @@ public class EventServiceImpl implements EventService {
 
 	@Override
 	public Event findById(long id) {
-		// TODO Auto-generated method stub
 		return repository.findById(id);
 	}
 
 	@Override
 	public List<Event> getAllEvent() {
-		// TODO Auto-generated method stub
 		return repository.findAll();
 	}
 

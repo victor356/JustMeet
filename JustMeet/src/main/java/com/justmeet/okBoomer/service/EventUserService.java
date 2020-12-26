@@ -4,10 +4,8 @@
 package com.justmeet.okBoomer.service;
 
 import java.security.Principal;
-import java.sql.Date;
 import java.util.List;
 
-import com.justmeet.okBoomer.model.Category;
 import com.justmeet.okBoomer.model.Event;
 import com.justmeet.okBoomer.model.EventUser;
 import com.justmeet.okBoomer.model.User;
